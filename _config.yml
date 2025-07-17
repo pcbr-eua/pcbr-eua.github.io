@@ -30,7 +30,9 @@ github_username:  pcbr-eua
 
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin    : "sunrise"
+
 plugins:
   - jekyll-feed
 lsi: false
