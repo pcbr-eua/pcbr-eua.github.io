@@ -30,11 +30,13 @@ github_username:  pcbr-eua
 
 
 # Build settings
-theme: minimal-mistakes-jekyll
+
+remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 minimal_mistakes_skin    : "sunrise"
 
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 lsi: false
 safe: true
 source: [your repo's top level directory]
